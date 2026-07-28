@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Pete's Pizza Delivery</h1>
+    <h2>Online Order Form</h2>
+    <p>*required fields</p>
+
+    <div>
+        <form action="welcomePage.html" target="_blank">
+            <fieldset>
+                <legend>Customer Details</legend>
+                <label for="name">*Name: </label>
+                <input type="text" id="name" required>
+
+                <br><br>
+                <label for="address">*Adreass: </label>
+                <input type="text" id="address" required>
+
+                <br><br>
+                <label for="town">*Town/City: </label>
+                <input type="text" id="town" required>
+
+                <br><br>
+                <label for="postcode">*Postcode: </label>
+                <input type="text" id="postcode" required>
+
+                <br><br>
+                <label for="phoneNumber"> *Tel: </label>
+                <input type="number" id="phoneNumber" required minlength="10" min="0" maxlength="10">
+                <br><br>
+                <label for="email">*Email: </label>
+                <input type="email" id="email" required>
+                <br><br>
+                <fieldset>
+                    <legend>Topping*</legend>
+                    <label for="top"></label>
+                    <label for="marg"> Margherita: </label>
+                    <input type="radio" id="marg" name="top" required>
+                    <label for="fseasons"> Four Seasons: </label>
+                    <input type="radio" id="fseasons" name="top" required>
+                    <label for="meatfeast"> Meat Feast: </label>
+                    <input type="radio" id="meatfeast" name="top" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Size*</legend>
+                    <label for="size"></label>
+                    <label for="small"> Small: </label>
+                    <input type="radio" id="small" name="size" required>
+                    <label for="med"> Medium: </label>
+                    <input type="radio" id="med" name="size" required>
+                    <label for="large"> Large: </label>
+                    <input type="radio" id="large" name="size" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Extras</legend>
+                    <label for="extra"></label>
+                    <label for="mush"> Mushrooms: </label>
+                    <input type="radio" id="mush" name="extra" required>
+                    <label for="green"> Green Peppers: </label>
+                    <input type="radio" id="green" name="extra" required>
+                    <label for="anchovies"> Anchovies </label>
+                    <input type="radio" id="anchovies" name="extra" required>
+                    <label for="cheese"> Extra Cheese: </label>
+                    <input type="radio" id="cheese" name="extra" required>
+                </fieldset>
+
+                <br><br>
+                <fieldset>
+                    <legend>Delivery</legend>
+                    <label for="time">Preferred delivery time:</label>
+                    <input type="time" id="time" required>
+                    <br><br>
+                    <label for="deliveryins">Delivery instructions:</label>
+                    <br>
+                    <input type="text" id="deliveryins"  required>
+                </fieldset>
+
+                <br><br>
+                <button type="submit"> Submit Order </button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
