@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/Portfolio/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudra Pratap Jena | portfolio</title>
+    <link rel="stylesheet" href="./Rudra Pratap Jena _ portfolio2_files/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Rudra Pratap Jena</h1>
+        <p>Full Stack Developer &amp; Lifelong Leaner</p>
+        <nav>
+            <a href="http://127.0.0.1:5500/Portfolio/index.html#about">About</a>
+            <a href="http://127.0.0.1:5500/Portfolio/index.html#project">Projects</a>
+            <a href="http://127.0.0.1:5500/Portfolio/index.html#intro">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="about">
+            <div>
+                <h2>About Me</h2>
+                <figure>
+                    <img src="./Rudra Pratap Jena _ portfolio2_files/Gemini_Generated_Image_pdr0n4pdr0n4pdr0 (1).png" width="180px" height="180px" alt="">
+                    <figcaption>That's me at my first hackathon!</figcaption>
+                </figure>
+                <p>Hi! I am <strong>Rudra Pratap Jena</strong> ,a passionate full stack developer learning to build
+                    real-world products. I am currently taking the <em>PW Full Stack Course.</em></p>
+            </div>
+        </section>
+
+        <section id="project">
+            <div class="projects">
+                <h2>My Projects</h2>
+                <section class="proj1">
+                <article>
+                    <h3>Project One: Portfolio Website</h3>
+                    <p>A simple personal portfolio with <strong>HTML &amp; CSS.</strong></p>
+                    <a href="https://github.com/rudrajena928-blip">View on Github</a>
+                </article>
+                </section>
+                <section class="proj2">
+                <article>
+                    <h3>Project Two: To-Do App</h3>
+                    <p>A todo list app built with <strong>JavaScript.</strong></p>
+                    <a href="https://github.com/rudrajena928-blip">View on Github</a>
+                </article>
+                </section>
+
+                <div id="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML/CSS/JavaScript</li>
+                        <li>C++/Python/SQL</li>
+                        <li>SQL/Numpy/EDA</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="intro">
+            <div>
+                <h2>Watch My Intro</h2>
+                <video src="13232-246463976_medium.mp4" width="500px" height="300px" controls="" poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDyAZBwLAyx-7WiXDGBwnnaupIX-qXw1j_6SA7I-ouGA&amp;s=10"></video>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h2>Contact Me</h2>
+            <div class="underline">
+            <p>Email: <a href="mailto:rudrajena928@gmail.com">rudrajena928@gmail.com</a></p>
+            <p>Phone: <a href="tel:+91 9938317259">+91 9938317259</a></p>
+            </div>
+            <div class="forum">
+            <form action="http://127.0.0.1:5500/Portfolio/index.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter Your Email">
+                <br><br>
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="message" id="message" rows="5" cols="20" placeholder="Write Your Message Here..."></textarea>
+                <br><br>
+                <button type="submit">Send Message</button>
+            </form>
+            </div>
+            <section class="flex">
+            <h3>© Rudra Pratap Jena. All rights reserved.</h3>
+            
+            <div class="ez">
+                <a href="http://127.0.0.1:5500/Portfolio/index.html">LinkedIn</a> | <a href="https://github.com/rudrajena928-blip">Github</a>
+            </div>
+            </section>
+        </div>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
