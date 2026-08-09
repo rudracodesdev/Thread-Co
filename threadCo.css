@@ -14,7 +14,7 @@
     --color-secondary-glow: rgba(236, 72, 153, 0.25);
     --color-accent: #06b6d4;
 
-    /* brand color change karne ke liye just change everything in :root as it has higher specificity order than html */
+    
 
     /* Base & Layout Backgrounds */
     --color-bg-base: #060709;
